@@ -9,10 +9,10 @@ export default function Header(){
 
     return (
         <div className="header">
-            <NavLink style={({isActive})=>isActive ? activeSyle : null} to="/" end>Home</NavLink>
-            <NavLink style={({isActive})=>isActive ? activeSyle : null} to="admin">Admin</NavLink>
+            <NavLink style={({isActive})=>isActive ? activeSyle : null} to="/">Home</NavLink>
+            <NavLink style={({isActive})=>isActive ? activeSyle : null} to="login">Login</NavLink>
             <NavLink style={({isActive})=>isActive ? activeSyle : null} to="contact">Contact Us</NavLink>
-            <NavLink style={({isActive})=>isActive ? activeSyle : null}to="cart">Cart</NavLink>
+            <NavLink style={({isActive})=>isActive ? activeSyle : null} to="cart">Cart</NavLink>
             <NavLink style={({isActive})=>isActive ? activeSyle : null} to="orders">Orders</NavLink>
         </div>
     )

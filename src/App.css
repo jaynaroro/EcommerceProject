@@ -1,3 +1,9 @@
+.App{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header{
     height: 100px;
     outline: solid red 1px;
@@ -24,4 +30,141 @@
     outline: solid red 1px;
     text-align: center;
     padding-block: 5px;
+    margin-top: auto;
+}
+
+.login-page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.login-form input{
+    height: 50px;
+    margin-block: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.login-page button{
+    height: 50px;
+    margin-block: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    width: 400px;
+}
+
+.login-form a{
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+}
+
+.login-form a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.register-page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.register-form input{
+    height: 50px;
+    margin-block: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.register-page button{
+    height: 50px;
+    margin-block: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    width: 400px;
+}
+
+.register-form a{
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+}
+
+.register-form a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+.reset-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.reset-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.reset-form input{
+    height: 50px;
+    margin-block: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.reset-page button{
+    height: 50px;
+    margin-block: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    width: 400px;
+}
+
+.reset-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reset-links a{
+    text-decoration: none;
+    color: grey;
+}
+
+.reset-links a:hover{
+    text-decoration: underline;
+    color: black;
 }
