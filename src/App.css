@@ -1,0 +1,27 @@
+.header{
+    height: 100px;
+    outline: solid red 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: gray
+}
+
+.header a:hover{
+    text-decoration: underline;
+    color: black
+}
+
+
+.footer{
+    height: 100px;
+    outline: solid red 1px;
+    text-align: center;
+    padding-block: 5px;
+}
